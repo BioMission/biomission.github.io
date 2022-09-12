@@ -1,0 +1,9 @@
+<script>
+  let path = location.href;
+  localStorage.setItem(
+    "path",
+    path.replace("https://biomission.net", "")
+  );
+
+  window.location.href = "https://biomission.net";
+</script>
